@@ -213,13 +213,39 @@ main {
     font-weight: bold;
 }
 
+@media (min-width: 970px) and (max-width: 1300px){
+    #period {
+        width: 100%;
+    }
+
+    #currency {
+        width: 100%;
+    }
+
+    #interest-rate{
+        width: 100%;
+    }
+    
+    #initial-investment{
+        width: 100%;
+    }
+
+    #time-year{
+        width: 100%;
+    }
+
+    #time-month{
+        width: 100%;
+    }    
+}
+
 @media (max-width: 970px){
     main{
         margin-left: 0;
         display: flex;
         flex-direction: column;
     }
-
+    
     .container-info{
         width: 100%;
         margin: 0;
