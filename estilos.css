@@ -1,0 +1,97 @@
+:root{
+    --very-light-pink: #C7C7C7;
+    --text-input-field: #F7F7F7;
+    --hospital-green: #2ECC71;
+    --white: #FFFFFF;
+    --black: #2E2E2E;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18rem;
+
+}
+
+html{
+    font-size: 6.25%;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*---------------------------------------------*/
+/* HEADER
+/*---------------------------------------------*/
+
+header{
+    display: flex;
+    width: 100%;
+    border-bottom: 2px solid var(--very-light-pink);
+    padding: 10rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header p{
+    margin-right: 20rem;
+}
+
+header section{
+    display: flex;
+    align-items: center;
+}
+
+header section img{
+    width: 50rem;
+    margin-right: 12rem;
+}
+
+/* MAIN */
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    margin-top: 28rem;
+}
+
+/*---------------------------------------------*/
+/* MAIN-LEFT
+/*---------------------------------------------*/
+
+.container-info{
+    width: 85%;
+    padding: 25rem;
+    background-color: var(--white);
+    border-radius: 16rem;
+    box-shadow: #2E2E2E 1px 0px 5px;
+}
+
+.container-info img{
+    width: 300rem;
+    float: right;
+    border-radius: 16rem;
+}
+
+.container-info div p{
+    line-height: 24rem;
+    font-size: 17px;
+}
+
+.title-info{
+    text-align: center;
+    padding: 40rem;
+    font-size: 32rem;
+    font-weight: 700;
+}
+
+/*---------------------------------------------*/
+/* MAIN-RIGHT
+/*---------------------------------------------*/
+
