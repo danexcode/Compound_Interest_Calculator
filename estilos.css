@@ -1,6 +1,6 @@
 :root{
     --very-light-pink: #C7C7C7;
-    --text-input-field: #F7F7F7;
+    --input-field-error: #d22c2c;
     --hospital-green: #2ECC71;
     --white: #FFFFFF;
     --black: #2E2E2E;
@@ -186,6 +186,12 @@ main {
     width: 100%;
     cursor: pointer;
     margin-top: 12rem;
+}
+
+.error {
+    color: var(--input-field-error);
+    text-align: center;
+    margin-top: 4rem;
 }
 
 /* RESULTS*/
